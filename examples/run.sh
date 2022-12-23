@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # test gulcalc item stream and coverage stream
-eve 1 1 | getmodel | gulcalc -S2 -a1 -i ./out/gulcalci.bin
+eve 1 1 | getmodel | gulcalc -S1 -a0 -i ./out/gulcalci.bin
 gultocsv < ./out/gulcalci.bin > ./out/gulcalci.csv 
 
 # test fmcalc
