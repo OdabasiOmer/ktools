@@ -41,3 +41,4 @@ _deps
 .vscode
 configure.ac.save
 vs3
+.~lock*
